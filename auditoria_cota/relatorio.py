@@ -116,7 +116,7 @@ def gerar_markdown(tabelas: dict[str, pd.DataFrame], titulo: str, total_despesas
         "|---|---|---:|---|---|---|",
     ]
     for s in suspeitas.itertuples():
-        link = f"[abrir]({s.url_documento})" if str(s.url_documento).startswith("http") else "—"
+        link = f"[abrir]({s.url_documento})" if str(s.url_documento).startswith("http") else "-"
         linhas.append(
             f"| {s.deputado.title()} | {s.fornecedor.title()} | {moeda(s.valor_liquido)} "
             f"| {s.regra} | {s.detalhe} | {link} |"
