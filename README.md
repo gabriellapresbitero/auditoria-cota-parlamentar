@@ -1,4 +1,4 @@
-# 🏛️ Auditoria da Cota Parlamentar
+# Auditoria da Cota Parlamentar
 
 [![Testes](https://github.com/gabriellapresbitero/auditoria-cota-parlamentar/actions/workflows/testes.yml/badge.svg)](https://github.com/gabriellapresbitero/auditoria-cota-parlamentar/actions/workflows/testes.yml)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
@@ -36,7 +36,7 @@ Cada regra dá **pontos** conforme a força do indício. As regras em SQL ficam 
 Com isso, o projeto monta um **ranking de deputados** por pontos, com o valor suspeito e o
 percentual que ele representa do total gasto.
 
-> ⚠️ **Indício não é prova.** Um CNPJ inválido pode ser erro de digitação. Uma nota
+> **Indício não é prova.** Um CNPJ inválido pode ser erro de digitação. Uma nota
 > "duplicada" pode ser uma correção. O objetivo é priorizar o que conferir, e cada indício traz
 > o link da nota fiscal original.
 

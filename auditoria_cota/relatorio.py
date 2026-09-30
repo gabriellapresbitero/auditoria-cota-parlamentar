@@ -87,7 +87,7 @@ def gerar_markdown(tabelas: dict[str, pd.DataFrame], titulo: str, total_despesas
         f"Foram analisadas **{total_despesas:,}** despesas e encontrados "
         f"**{len(tabelas['suspeitas_detalhadas']):,}** indícios.".replace(",", "."),
         "",
-        "> ⚠️ Um indício **não** é prova de irregularidade. É uma despesa que merece ser conferida,",
+        "> Atenção: um indício **não** é prova de irregularidade. É uma despesa que merece ser conferida,",
         "> abrindo a nota fiscal pelo link.",
         "",
         "## Indícios por regra",
